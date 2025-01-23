@@ -29,7 +29,7 @@ app.post("/",function(req,res){
     
     };
     const jsonData=JSON.stringify(data);
-    const url='https://us15.api.mailchimp.com/3.0/lists/c6321429b2';
+    const url='https://us15.api.mailchimp.com/3.0/lists/2145228b1de3f584f76af9b6ea5d53e0-us15';
     const Option={
         method:"POST",
         auth:"Ayush:4734613c20cbf9c834d76cc7c78cda8d-us15"
